@@ -71,3 +71,14 @@ body{
         margin: 0 -35px 0 35px;
     }
 }
+
+@media (max-width: 768px){
+    .wrapper .first-text,
+    .sec-texts li{
+        font-size: 32px;
+    }
+    .sec-texts li span::before {
+        width: 200px;
+        height: 60px;
+    }
+}
