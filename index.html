@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change Bg color</title>
+    <title>Change Background Color</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-    <div class="color">
-        <div class="covered">
-            <h2 class="color-code">#ff0000</h2>
-        </div>
-    </div>
+<section class="sec">
+    <div class="cliPath-circle"></div>
 
-    <input type="color" class="color-input" value="#ff0000">
+    <div class="box">
+        <form action="" class="change-bg">
+            <h1>Enter a color name, hex, rgb or hsl values :</h1>
+            <div class="input-group">
+                <input type="text" autocomplete="off" placeholder="Type color..." class="newColor-input">
+                <input type="submit" value="Change" class="btn">
+            </div>
+        </form>
+    </div>
+    <div class="bg-text"></div>
+</section>
 
 <script src="/script.js"></script>
     
