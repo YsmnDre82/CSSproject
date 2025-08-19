@@ -3,22 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dtopdown Animation</title>
+    <title>Animation Dropdown Select Menu</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-    <div class="box">
-        <div class="dropdown">Button
-            <span class="left-icon"></span>
-            <span class="right-icon"></span>
-            <div class="items">
-                <a href="#" style="--i:1;"><span></span>HTML</a>
-                <a href="#" style="--i:2;"><span></span>CSS</a>
-                <a href="#" style="--i:3;"><span></span>JAVASCRIPT</a>
-            </div>
+    <div class="select-menu">
+        <div class="select-btn" id="select-btn">
+            <span id="text">Dropdown Select</span>
+            <ion-icon name="chevron-down-outline" class="icon-arrow"></ion-icon>
         </div>
+        <ul class="list">
+            <li class="option" style="--i:5;">
+                <ion-icon name="logo-html5" class="icon"></ion-icon>
+                <span class="option-text">HTML</span>
+            </li>
+            <li class="option" style="--i:4;">
+                <ion-icon name="logo-css3" class="icon"></ion-icon>
+                <span class="option-text">CSS</span>
+            </li>
+            <li class="option" style="--i:3;">
+                <ion-icon name="logo-nodejs" class="icon"></ion-icon>
+                <span class="option-text">Javascript</span>
+            </li>
+            <li class="option" style="--i:2;">
+                <ion-icon name="logo-figma" class="icon"></ion-icon>
+                <span class="option-text">Figma</span>
+            </li>
+            <li class="option" style="--i:1;">
+                <ion-icon name="logo-react" class="icon"></ion-icon>
+                <span class="option-text">ReactJS</span>
+            </li>
+        </ul>
     </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 
 <script src="/script.js"></script>
     
